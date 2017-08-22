@@ -1,0 +1,11 @@
+.g-row.sign-in {
+	text-align: center !important;
+	margin-left: 26%;
+	margin-top: 3%;
+}
+
+.sign-in__button {
+	margin-right: 14px;
+	margin-left: 14px;
+	margin-bottom: 10px;
+}

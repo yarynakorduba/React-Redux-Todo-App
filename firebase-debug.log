@@ -1,0 +1,43 @@
+[debug] [2017-08-18T11:19:55.021Z] ----------------------------------------------------------------------
+[debug] [2017-08-18T11:19:55.024Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-18T11:19:55.025Z] CLI Version:   3.9.2
+[debug] [2017-08-18T11:19:55.025Z] Platform:      linux
+[debug] [2017-08-18T11:19:55.025Z] Node Version:  v8.2.1
+[debug] [2017-08-18T11:19:55.025Z] Time:          Fri Aug 18 2017 14:19:55 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:55.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-18T11:19:55.038Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-18T11:19:55.039Z] > authorizing via signed-in user
+[debug] [2017-08-18T11:19:55.041Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-18T11:19:55.041Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/iRrFg6YifY8YlhKd3IgwAmMM108PZUW9RBPI_2ZlBpY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 18 2017 14:19:55 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:55.302Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T11:19:55.352Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 18 2017 14:19:55 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:56.184Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T11:19:56.185Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-redux-app-23a4d/tokens  
+ Fri Aug 18 2017 14:19:56 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:56.879Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/yaryna/my-redux-app'...
+[info] 
+[debug] [2017-08-18T11:19:56.882Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 18 2017 14:19:56 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:57.806Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T11:19:57.807Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 18 2017 14:19:57 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:58.429Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-08-18T11:19:58.463Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 18 2017 14:19:58 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:59.303Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-18T11:19:59.304Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 18 2017 14:19:59 GMT+0300 (EEST)
+[debug] [2017-08-18T11:19:59.918Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+

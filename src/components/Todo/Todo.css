@@ -1,0 +1,43 @@
+.cell {
+	display: inline-flex;
+}
+
+.todo-item {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 3px;
+	width: 600px;
+	background: beige;
+}
+
+.todo-item__title {
+	width: 380px;
+	font-family: 'Archivo', sans-serif;
+	overflow: auto;	
+}
+
+.todo-item__input {
+	width: 480px;
+	margin-right: 27px;
+}
+
+button.active {
+	background: #7cec7c; /*#7cec7c*/
+}
+
+button:hover {
+	background: #999;
+	transition: all 200ms ease-in;
+	-webkit-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+
+
+	transform: scale(1.05);  
+	-moz-transform: scale(1.05);
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05);
+  
+
+
+}

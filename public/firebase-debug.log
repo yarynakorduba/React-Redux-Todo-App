@@ -1,0 +1,63 @@
+[debug] [2017-08-04T12:12:36.557Z] ----------------------------------------------------------------------
+[debug] [2017-08-04T12:12:36.561Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-04T12:12:36.561Z] CLI Version:   3.9.2
+[debug] [2017-08-04T12:12:36.561Z] Platform:      linux
+[debug] [2017-08-04T12:12:36.561Z] Node Version:  v8.2.1
+[debug] [2017-08-04T12:12:36.561Z] Time:          Fri Aug 04 2017 15:12:36 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:36.561Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-04T12:12:36.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-04T12:12:36.575Z] > authorizing via signed-in user
+[debug] [2017-08-04T12:12:36.577Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:36 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:37.747Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:37.748Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-redux-app-23a4d/tokens  
+ Fri Aug 04 2017 15:12:37 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:38.604Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/yaryna/my-redux-app'...
+[info] 
+[debug] [2017-08-04T12:12:38.608Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:38 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:40.158Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:40.159Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:40 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:40.648Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-08-04T12:12:40.664Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:40 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:41.538Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:41.539Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:41 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:41.971Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2017-08-04T12:12:41.974Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:41 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:43.512Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:43.512Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:43 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:44.477Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2017-08-04T12:12:44.483Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:44 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:45.357Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:45.357Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:45 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:45.902Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2017-08-04T12:12:45.905Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:45 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:46.260Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:46.261Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:46 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:46.947Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5016 is not available. Trying another port...
+[debug] [2017-08-04T12:12:46.951Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-redux-app-23a4d  
+ Fri Aug 04 2017 15:12:46 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:52.941Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-04T12:12:52.942Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/776109426165/clients/_:getWebAppConfig  
+ Fri Aug 04 2017 15:12:52 GMT+0300 (EEST)
+[debug] [2017-08-04T12:12:53.380Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5020
+
