@@ -8,7 +8,7 @@ User is able to see his current ToDo items in a list \
 User is able to create ToDo items \
 User is able to remove and mark my current ToDo items as completed \
 User is able to create Groups of ToDo items \
-User is able to put ToDo items into Groups \
+User is able to put ToDo items into Groups 
 
 Tools:
 - React
