@@ -26,7 +26,7 @@ export class TasksPageViews extends Component {
 		filterTasks: PropTypes.func.isRequired,
 		filterType: PropTypes.string.isRequired,
 		location: PropTypes.object.isRequired,
-		groups: PropTypes.instanceOf(List).isRequired
+		groups: PropTypes.instanceOf(List).isRequired //,
 
 	};
 
@@ -82,8 +82,7 @@ export class TasksPageViews extends Component {
 					<GroupsPageViews tasks={this.props.tasks}
 					updateTask={this.props.updateTask}
 					removeTask={this.props.removeTask}
-					location={this.props.location} 
-					users={ this.props.users }/>
+					location={this.props.location} />
 				</div>
 			</div>
 			</div>);
@@ -100,11 +99,10 @@ const mapStateToProps = createSelector(
 	getTaskFilter,
 	getVisibleTasks,
 	getAllGroups,
-	(filterType, tasks, groups, users) => ({
+	(filterType, tasks, groups) => ({
 		filterType,
 		tasks,
-		groups, 
-		users
+		groups
 			})
 );
 

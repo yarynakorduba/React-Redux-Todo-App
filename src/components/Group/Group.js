@@ -14,16 +14,13 @@ export default class Group extends Component {
 		super(...arguments);
 
 
-		this.state = {editing: false,
-			shared: ''};
+		this.state = {editing: false};
 
 		this.edit = this.edit.bind(this); //why do we do it here ?
 		this.remove = this.remove.bind(this);
 		this.save = this.save.bind(this);
 		this.stopEditing = this.stopEditing.bind(this);
 		this.handleKeyUp = this.handleKeyUp.bind(this);
-		this.shareWith = this.shareWith.bind(this);
-		this.handleShare = this.handleShare.bind(this);
 	}
 
 
@@ -39,40 +36,12 @@ export default class Group extends Component {
 		if (this.state.editing) {
 			const { group } = this.props; // ???take new group from props???
 			const title = event.target.value.trim(); // take away the whitespaces
+
 			if (title.length && title !==group.title) {
 				this.props.updateGroup(group, {title});
 			}
 			this.stopEditing();
 		}
-	}
-
-	handleShare(event) {
-
-		if (event.keyCode === 27) { //esc
-			this.stopEditing();
-		}
-		if (event.keyCode === 13) { //Enter
-			const { group } = this.props;
-			const { shared } = this.state.shared;
-			if (shared.length) {
-				this.props.updateGroup(group, {shared});
-			}
-
-		}
-	}
-
-	shareWith() {
-		return (
-			<input className="group-item__shared"
-			autoComplete="on"
-			autoFocus
-			defaultValue={this.state.shared}
-			maxLength="75"
-			onKeyUp={this.handleShare}
-			type="text"
-			>
-			</input>
-			);
 	}
 
 	stopEditing() {
@@ -88,8 +57,6 @@ export default class Group extends Component {
 		}
 
 	}
-
-
 
 
 	renderTitle(group) {
@@ -111,13 +78,13 @@ export default class Group extends Component {
 			onKeyUp={this.handleKeyUp}
 			type="text"
 			>
+				
 			</input>
 			);
 	}
 
 	render() {
-		const { editing } = this.state.editing;
-
+		const { editing } = this.state;
 		const { group } = this.props;
 
 		let containerClasses = classNames('group-item',{
@@ -128,7 +95,6 @@ export default class Group extends Component {
 			<div className={containerClasses} tabIndex="0">
 			<div className="cell">
 			{ editing ? this.renderTitleInput(group) : this.renderTitle(group) }
-			
 			</div>
 
 			<div className="cell">
@@ -152,14 +118,6 @@ export default class Group extends Component {
 			className={classNames('group-item__button',
 				{'hide':editing})}>
 			DEL
-			</Button>
-			</div>
-
-			<div className="cell">
-			<Button onClick={this.shareWith()}
-			className={classNames('group-item__button',
-				{'hide':editing})}>
-			SHARE
 			</Button>
 			</div>
 

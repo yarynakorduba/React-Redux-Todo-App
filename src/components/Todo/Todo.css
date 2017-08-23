@@ -12,12 +12,12 @@
 
 .todo-item__title {
 	width: 380px;
-	font-family: 'Archivo', sans-serif;
-	overflow: auto;	
+	font-family: 'Saira', sans-serif;
+
 }
 
 .todo-item__input {
-	width: 480px;
+	width: 460px;
 	margin-right: 27px;
 }
 

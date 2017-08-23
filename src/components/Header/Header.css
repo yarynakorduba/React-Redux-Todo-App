@@ -28,5 +28,13 @@
   margin-left: 400px;
   font-size: 20px;
   color: #777;
-  font-style: italic;
+}
+
+.signOut {
+  width: 40px;
+  height: 40px;
+}
+
+.material-icons {
+  margin-left: -5px;
 }

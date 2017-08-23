@@ -101,7 +101,7 @@ export class Todo extends Component {
 				 key={0} value={0}>
 				No Group
 				</option>);
-		console.log("taskGroup " + this.props.task.groupId);
+		console.log("taskGroup " + task.groupId);
 
 		// var GroupSelected = groupLst.find(function(el){
 		// 	return task.groupId === el.value;

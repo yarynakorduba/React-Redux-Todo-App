@@ -4,18 +4,20 @@
 
 .group-item {
 	display: block;
-	font-size: 16px;
 	margin-bottom: 3px;
-	width: 320px;
+	width: 300px;
 	background: #cbcba1;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+
 }
 
 .group-item__title {
-	width: 180px;
+	width: 160px;
 	padding-left: 10px;
+	font-weight: bold;
+	font-family: 'Saira', sans-serif;
+
 }
 
 .group-item__input {

@@ -37,6 +37,18 @@ export default () => ({
         test: /\.(css|scss|sass)$/,
         loader: 'style-loader!css-loader!sass-loader',
       },
+
+      { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'file-loader?name=public/fonts/[name].[ext]' },
+
+      {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      use: [
+        'url-loader?limit=10000',
+        'img-loader'
+      ]
+    }
+
+
     ]
   },
 });

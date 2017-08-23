@@ -8,6 +8,8 @@ body {
 
  .g-row {
  	width: 600px;
+ 	margin-left: 24px;
+ 	text-align: left;
  }
 
  .main-task-view {
