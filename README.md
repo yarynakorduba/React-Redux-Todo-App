@@ -16,7 +16,7 @@ Tools:
 - Webpack
 - Backend: Firebase
 
-Usage:
+Usage: \
 $ git clone https://github.com/yarynakorduba/React-Redux-Todo-App.git \
 $ cd React-Redux-Todo-App \
 $ npm install \
