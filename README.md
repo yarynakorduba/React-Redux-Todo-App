@@ -20,4 +20,4 @@ Usage:
 $ git clone https://github.com/yarynakorduba/React-Redux-Todo-App.git \
 $ cd\
 $ npm install \
-$ npm start \
+$ npm start
