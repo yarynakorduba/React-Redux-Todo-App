@@ -17,7 +17,7 @@ Tools:
 - Backend: Firebase
 
 Usage:
-$ git clone https://github.com/yarynakorduba/React-Redux-Todo-App.git /n
-$ cd \n
-$ npm install \n
-$ npm start \n
+$ git clone https://github.com/yarynakorduba/React-Redux-Todo-App.git \
+$ cd\
+$ npm install \
+$ npm start \
